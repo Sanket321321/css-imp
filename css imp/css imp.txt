@@ -1,0 +1,315 @@
+[9:48 PM, 12/29/2022] Akshay Sarsankr: slip 2
+question 1
+<!--
+ color names using Ordered List. Modify the 
+ code to display each color name with the 
+ same color of rainbow using font tag. 
+ Apply 
+ page background color as black.-->
+
+ans :-
+
+<html>
+  <head>
+    <title>rainbow cor</title>
+  </head>
+  <style>
+  ol{
+  background-color:black;
+  color:white;
+  }
+  </style>
+  <body>
+ <ol bgcolor="black">
+    <font color="voilet"><li>voilet</li></font>
+    <font color="indigo"><li>indigo</li></font></li>
+    <font color="blue"><li>blue</li></font></li>
+    <font color="green"><li>green</li></font></li>
+    <font color="yellow"><li>yellow</li></font></li>
+    <font color="orange"><li>orange</li></font></li>
+    <font color="red"><li>red</li></font></li>
+ </ol>
+  </body>
+</html>
+
+
+slip 4
+question
+Create HTML page with following 
+a) Title should be about myCity
+b) Place your City name at the top 
+of the page in large text and in blue
+ color
+c) Add names of landmarks in your city
+ each in a different color, style and
+  typefaced.
+d) One of the landmark, your college name
+ should be blinking.
+e) Add scrolling text with a message 
+of your choice.
+
+ans 
+
+<html>
+  <head>
+     <title>
+        mycity
+     </title>
+  </head>
+<body>
+   <h1><center><font color="blue">PUNE</font></center></h1>
+   
+   <h4><font color="red">1:-SHANIVARVADA</font></font></h4>
+   <h4><font color="green">2:-DAGADUSETHALVAI GANPATI</font></h4>
+   <h4><font color="yellow">3:-ABC MALL</font></h4>
+    <h4 style="color:red; "><blink>4:-BJS COLL</blink></h4>
+    <marquee style="color:red; bgcolor:black;">MODERN COLLEGE PUNE</marquee>
+</body>
+</html>
+
+
+
+question 2
+Write HTML code to generate the following output
+
+ans 
+
+<html>
+   <head>
+     <title>form validation</title>
+   </head>
+   <body>
+      <h1><center>FEEDBACK FORM</center></h1> 
+      <form>
+        <div>
+              <p>STUDENT NAME:-
+              <input type="text" height="120px" width></p>
+     
+            <p>STUDENT EMAIL:-
+            <input type="EMAIL"></p>
+     <p>how do you know this Institute
+     <select>
+        <option>through to college</option>
+        <option>through the friend</option>
+     </select></p>
+     <p>how do you rate this faculty:-
+        <input type="radio" name="abc">good
+        <input type="radio" name="abc">poor</p>
+    
+    <p>suggesion for the betterment of the institution</p>
+    <center><textarea></textarea></center> 
+    
+    <div style="display:flex">
+   <center><button type="submit">submit</button></center>
+   <center><button type="reset">clear</button></center>
+   </div>
+        </div>
+      </form>
+   </body>
+</html>
+
+slip 4 
+question 1;
+Create HTML page with following specifications [10 Marks]
+a) Title should be about myCity
+b) Place your City name at the top of the page in large text and in blue color
+c) Add names of landmarks in your city each in a different color, style and typefaced.
+d) One of the landmark, your college name should be blinking.
+e) Add scrolling text with a message of your choice.
+
+ans 
+
+<html>
+  <head>
+     <title>
+        mycity
+     </title>
+  </head>
+<body>
+   <h1><center><font color="blue">PUNE</font></center></h1>
+   
+   <h4><font color="red">1:-SHANIVARVADA</font></font></h4>
+   <h4><font color="green">2:-DAGADUSETHALVAI GANPATI</font></h4>
+   <h4><font color="yellow">3:-ABC MALL</font></h4>
+    <h4 style="color:red; "><blink>4:-BJS COLL</blink></h4>
+    <marquee style="color:red; bgcolor:black;">MODERN COLLEGE PUNE</marquee>
+</body>
+</html>
+
+qua2:-
+
+ans 
+<html>
+   <head>
+     <title>form validation</title>
+   </head>
+   <body>
+      <h1><center>FEEDBACK FORM</center></h1> 
+      <form>
+        <div>
+              <p>STUDENT NAME:-
+              <input type="text" height="120px" width></p>
+     
+            <p>STUDENT EMAIL:-
+            <input type="EMAIL"></p>
+     <p>how do you know this Institute
+     <select>
+        <option>through to college</option>
+        <option>through the friend</option>
+     </select></p>
+     <p>how do you rate this faculty:-
+        <input type="radio" name="abc">good
+        <input type="radio" name="abc">poor</p>
+    
+    <p>suggesion for the betterment of the institution</p>
+    <center><textarea></textarea></center> 
+    
+    <div style="display:flex">
+   <center><button type="submit">submit</button></center>
+   <center><button type="reset">clear</button></center>
+   </div>
+        </div>
+      </form>
+   </body>
+</html>
+
+slip 5 
+question 1
+ans :-
+<html>
+  <head>
+     <title>demo</title>
+  </head>
+  <body>
+  <center>
+     <b>this is the bold</b><br>
+     <i>this is italic</i><br>
+     <em>this is emumrator</em><br>
+     <strike>this is is strike</strike><br>
+     <big>this is big</big><br>
+     <small>this is small</small><br>
+     <strong>this is strong</strong><br>
+     <u>this is underline</u>
+    </center>
+  </body>
+</html>
+
+question 2:
+ans <html>
+  <head>
+    <title>form
+    </title>
+  </head>
+<body>
+  <form>
+    <p>Enter your name
+    <input type="text"></p>
+    <p>enter your password
+    <input type="password"></p>
+    <p>which of the following operating system you use</p>
+    <input type="checkbox" name="a">Linux
+    <input type ="checkbox">wondow xp
+    <input type="checkbox">mesintose 0.8<br>
+    
+    <p>which operating system do you like the best</p>
+    <input type="radio" name="a">Linux
+    <input type="radio" name="a">window xp
+    <input type="radio" name="a">mesintose 0.8
+    <br>
+    
+    <p>you can complete the form<button type="submit">submit</button>
+    
+  </form>
+</body>
+</html>
+
+
+slip6 
+question 1:
+<html>
+  <head>
+    <title>kaoaannsn
+    </title>
+  </head>
+  <body style="background-color:green; color:red;">
+  <center><h1>MY ASSIGNMENT</h1></center>
+  <hr>
+  <b>AKSHAYKUMAR CHANDRAPRABHU SARSAMKAR</b>
+  <i>wagholi pune Maharashtra</i><br>
+  <i>year:SYBCA(SCI);</i>
+     
+  </body>
+</html>
+
+
+slip 7
+question 1
+<html>
+  <head>
+    <title>internal css</title>
+  </head>
+  <body>
+      <h1 style="border:2px solid gray;">thia is the first</h1>
+      <h1 style="border:2px solid red;">this is the box1</h1>
+      <h2 style="border:2px solid green;">this is box2</h2>
+      <h3 style="border:2px solid gray; ">this is the box3</h3>
+  
+  </body>
+</html>
+
+question 2
+ans
+Write a JavaScript program to print factorial of a given number.
+
+<script>
+   let num=prompt(" Enter the number") ;
+   num=number.parseInt() ;
+  int ans=1;
+   for(let i=0;i<num;i++) 
+   {
+        ans*=(i+1) ;
+    }
+console. log("factorial is the  " + ans) ;
+</script>
+
+  slip 8
+question 2
+Write HTML code to generate the following output and display each element of 
+ list in different size, color & font. Use internal CSS to format the list.
+
+ans:-
+<html>
+  <head>
+    <title> liat</title>
+  </head>
+  <body>
+     <ul>
+       <li>non-flowerung plants</li> 
+         <ul>
+            <li>ferm</li>
+            <li>spore</li>
+         </ul>
+       <li>flowering plants</li>
+          <ul>
+             <li>lily</li>
+             <li>rose</li>
+               <ol>
+                 <li>red rose</li>
+                 <li>pink rose</li>
+               </ol>
+          </ul>
+     </ul>
+  </body>
+</html>
+
+
+slip 9
+question 1:
+ans :
+<html>
+  <head>
+    <title>xyz</title>
+  </head>
+  <body>
+    <center> <h1>SYBCA(sci) SUBJECT</h1></center>
+    <…
